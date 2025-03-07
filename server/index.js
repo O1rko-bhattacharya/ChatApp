@@ -17,7 +17,7 @@ const databaseURL = process.env.DATABSE_URL;
 
 app.use(
   cors({
-    origin: [process.env.ORIGIN],
+    origin: "https://chatapp-front-4ufk.onrender.com",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     credentials: true,
   })
